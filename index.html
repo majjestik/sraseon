@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINKS -->
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/aos.css">
+
+    <title>SRASEON - Accueil</title>
+</head>
+<body>
+    
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="#">
+          <img src="images/sraseon-logo-2.png" alt="Sraseon logo" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    
+      <div class="collapse navbar-collapse px-lg-3" id="navbarSupportedContent">
+        <div class="socials ml-auto my-3 my-lg-0">
+          <a href="" class="mr-3">
+              <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="" class="mx-3">
+              <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="" class="mx-3">
+              <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="" class="mx-3">
+              <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="" class="mx-3">
+              <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+
+
+        <ul class="navbar-nav ml-auto latoBold text-uppercase">
+          <li class="nav-item">
+            <a class="nav-link myLink activeLink px-lg-3 font-weight-bold" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link myLink px-lg-3 font-weight-bold" href="#">A Propos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link myLink px-lg-3 font-weight-bold dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Nos Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Telemedecine</a>
+              <a class="dropdown-item" href="#">E-Orientation</a>
+              <a class="dropdown-item" href="#">Immobilier</a>
+              <a class="dropdown-item" href="#">Solutions Numeriques</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-lg-3 mt-lg-0 mt-3 font-weight-bold btn 
+              btn-md-block nasalization" 
+              href="#"
+              id="action-nav-btn"
+            >
+                Contactez Nous
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- END OF NAVBAR -->
+
+    <!-- CAROUSSEL -->
+    <div id="myCaroussel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCaroussel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCaroussel" data-slide-to="1"></li>
+        <li data-target="#myCaroussel" data-slide-to="2"></li>
+        <li data-target="#myCaroussel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/telehealth_5.png" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block relative">
+              <h1>Nous vous offrons un service de <span> <span>T</span>elemedecine</span></h1>
+              <a href="#contact" id="carousel-btn" class="btn btn-lg mt-3">
+                contactez nous
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/counseling_1.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block relative">
+              <h1>Nous vous offrons un service de <span> <span>E-</span>orientation</span></h1>
+              <a href="#contact" id="carousel-btn" class="btn btn-lg mt-3">
+                contactez nous
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/immo_1.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block relative">
+              <h1>Nous vous offrons un service
+                <span><span>I</span>mmobilier</span>
+              </h1>
+              <a href="#contact" id="carousel-btn" class="btn btn-lg mt-3">
+                contactez nous
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/numerique_2.jpg" alt="Fouth slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block relative">
+              <h1>Nous vous offrons des <br> 
+                <span> <span>S</span>olutions <span>n</span> umeriques</span>
+              </h1>
+              <a href="#contact" id="carousel-btn" class="btn btn-lg">
+                contactez nous
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCaroussel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCaroussel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- END OF CAROUSEL -->
+
+    <!-- ABOUT SECTION -->
+    <div class="container about-section">
+      
+      <!-- TELEMEDECINE -->
+      <div class="row d-flex">
+        <div class="col-md-7">
+            <div 
+              data-aos="zoom-in"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="800"
+              data-aos-offset="200"
+            >
+              <h2 class="text-uppercase">Telemedecine</h2>
+              <span></span>
+              <p class="mt-3 mb-5 lato">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                aliquip ex ea commodo 
+              </p>
+              <a href="" class="readMore-btn text-capitalize mt-5">
+                En savoir plus <i class="fa fa-arrow-right pl-3"></i>
+              </a>
+            </div>
+        </div>
+
+        <div class="col-md-5 mt-5 mt-md-0" 
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+            <img src="images/telehealth_sm_1.jpg" class="img-fluid img-thumbnail rounded" 
+              alt="Télémédecine"
+            />
+        </div>
+      </div>
+
+      <!-- E-ORIENTATION -->
+      <div class="row d-flex">
+        <div class="col-md-5 mb-3 mb-md-0"
+          data-aos="fade-right"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="600"
+          data-aos-offset="200"
+        >
+            <img src="images/counselling_4.jpg" class="img-fluid img-thumbnail rounded" 
+              alt="Télémédecine"
+            />
+        </div>
+        
+        <div class="col-md-7 text-right"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="500"
+        >
+            <h2 class="text-uppercase">E-Orientation</h2>
+            <span></span>
+            <p class="mt-3 mb-5 lato">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod 
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+              veniam, quis nostrud exercitation ullamco laboris nisi ut 
+              aliquip ex ea commodo 
+            </p>
+            <a href="" class="readMore-btn text-capitalize mt-5">
+              En savoir plus <i class="fa fa-arrow-right pl-3"></i>
+            </a>
+        </div>
+      </div>
+
+      <!-- IMMOBILIER -->
+      <div class="row d-flex">
+        <div class="col-md-7"
+          data-aos="fade-right"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="800"
+          data-aos-offset="200"
+        >
+            <h2 class="text-uppercase">Immobilier</h2>
+            <span></span>
+            <p class="mt-3 mb-5 lato">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod 
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+              veniam, quis nostrud exercitation ullamco laboris nisi ut 
+              aliquip ex ea commodo 
+            </p>
+            <a href="" class="readMore-btn text-capitalize mt-5">
+              En savoir plus <i class="fa fa-arrow-right pl-3"></i>
+            </a>
+        </div>
+
+        <div class="col-md-5 mt-5 mt-md-0"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="600"
+        >
+            <img src="images/immo_2.jpg" class="img-fluid img-thumbnail rounded" 
+              alt="Télémédecine"
+            />
+        </div>
+      </div>
+
+      <!-- NUMERIQUES -->
+      <div class="row d-flex">
+        <div class="col-md-5 mb-3 mb-md-0"
+          data-aos="zoom-out-right"
+          data-aos-easing="ease-in-cubic"
+          data-aos-duration="800"
+        >
+            <img src="images/numeriques_3.jpg" class="img-fluid img-thumbnail rounded" 
+              alt="Télémédecine"
+            />
+        </div>
+        
+        <div class="col-md-7 text-right"
+          data-aos="flip-left"
+          data-aos-easing="ease-in-cubic"
+          data-aos-duration="800"
+          data-aos-offset="200"
+        >
+            <h2 class="text-uppercase">Solutions Numeriques</h2>
+            <span></span>
+            <p class="mt-3 mb-5 lato">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod 
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+              veniam, quis nostrud exercitation ullamco laboris nisi ut 
+              aliquip ex ea commodo 
+            </p>
+            <a href="" class="readMore-btn text-capitalize mt-5">
+              En savoir plus <i class="fa fa-arrow-right pl-3"></i>
+            </a>
+        </div>
+      </div>
+
+    </div>
+    <!-- END OF ABOUT SECTION -->
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer class="">
+
+      <div class="container text-center text-md-left pt-5">
+
+        <!-- Grid row -->
+        <div class="row mt-3">
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  
+            <!-- Content -->
+            <h6 class="text-uppercase font-weight-bold">sraseon</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>...</p>
+  
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Nos Services</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a href="#!">Télémédecine</a>
+            </p>
+            <p>
+              <a href="#!">E-Orientation</a>
+            </p>
+            <p>
+              <a href="#!">Immobilier</a>
+            </p>
+            <p>
+              <a href="#!">Solutions Numériques</a>
+            </p>
+  
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Liens Utiles</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a href="#!">...</a>
+            </p>
+            <p>
+              <a href="#!">...</a>
+            </p>
+            <p>
+              <a href="#!">...</a>
+            </p>
+            <p>
+              <a href="#!">...</a>
+            </p>
+  
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Contact</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <i class="fa fa-home mr-3"></i> Rue 1234, YAOUNDE, CM</p>
+            <p>
+              <i class="fa fa-envelope mr-3"></i> info@example.com</p>
+            <p>
+              <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p>
+              <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+  
+          </div>
+          <!-- Grid column -->
+  
+        </div>
+        <!-- Grid row -->
+  
+      </div>
+
+      <hr>
+
+      <!-- SOCIALS -->
+      <div class="container footer-socials text-center">
+        <a href="" class="mr-3">
+          <i class="fa-brands fa-facebook fa-2x"></i>
+        </a>
+        <a href="" class="mx-3">
+          <i class="fa-brands fa-instagram fa-2x"></i>
+        </a>
+        <a href="" class="mx-3">
+          <i class="fa-brands fa-twitter fa-2x"></i>
+        </a>
+        <a href="" class="mx-3">
+          <i class="fa-brands fa-linkedin fa-2x"></i>
+        </a>
+        <a href="" class="mx-3">
+          <i class="fa-brands fa-youtube fa-2x"></i>
+        </a>
+      </div>
+
+      <!-- END OF SOCIALS -->
+
+      <!-- COPYRIGHT -->
+      <div class="footer-copyright text-center py-3">© 2022 Copyright:
+        <a href="https://mdbootstrap.com/bootstrap-tutorial/"> ducielsolutions.com</a>
+      </div>
+      <!-- END OF COPYRIGHT -->
+
+    </footer>
+    <!-- END OF FOOTER -->
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript">
+      AOS.init();
+    </script>
+</body>
+</html>

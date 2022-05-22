@@ -1,0 +1,303 @@
+:root {  
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --danger: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --light-brown: #db8f51;
+  --body-light: #efefef;
+}
+
+@font-face {
+    font-family: "nasalization";
+    src: url("../fonts/nasalization.ttf");
+}
+@font-face {
+    font-family: "Amarante";
+    src: url("../fonts/Amarante-Regular.ttf");
+}
+@font-face {
+    font-family: "Lobster";
+    src: url("../fonts/Lobster.ttf");
+}
+@font-face {
+    font-family: "russiafive";
+    src: url("../fonts/Russia\ Five.otf");
+}
+@font-face {
+    font-family: "Ubuntu-Bold";
+    src: url("../fonts/Ubuntu-Bold.ttf");
+}
+@font-face {
+    font-family: "Ubuntu-BoldItalic";
+    src: url("../fonts/Ubuntu-BoldItalic.ttf");
+}
+@font-face {
+    font-family: "Ubuntu-Regular";
+    src: url("../fonts/Ubuntu-Regular.ttf");
+}
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+    font-family: "AndadaPro";
+    src: url("../fonts/AndadaPro.ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
+
+.nasalization {
+    font-family: nasalization;
+}
+.amarante {
+    font-family: Amarante;
+}
+.lobster {
+    font-family: Lobster;
+}
+.ubuntu {
+    font-family: Ubuntu-Regular;
+}
+.ubuntu-bold {
+    font-family: Ubuntu-Bold;
+}
+.ubuntu-italic {
+    font-family: Ubuntu-BoldItalic;
+}
+.roboto {
+    font-family: Roboto;
+}
+.andada {
+    font-family: AndadaPro;
+}
+.lato {
+    font-family: Lato-Regular;
+}
+.latoBold {
+    font-family: Lato-Bold;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--orange) ;
+}
+
+.readMore-btn {
+    border-radius: 50px ;
+    border: 3px solid #00aaea ;
+    padding: 15px 30px ;
+    transition: ease-in all 0.5s;
+    color: #343a40 ;
+    text-decoration: none;
+}
+
+.readMore-btn:hover {
+    border: 3px solid #00aaea ;
+    background-color: #00aaea;
+    color: var(--light) ;
+    text-decoration: none;
+}
+
+#carousel-btn {
+    border-radius: 50px ;
+    font-size: 15px ;
+    text-transform: capitalize ;
+    border: 2px solid var(--light) !important;
+    color: var(--light) ;
+    background-color: var(--light-brown) ;
+    text-decoration: none;
+    border: none;
+    font-family: nasalization;
+}
+
+#carousel-btn:hover {
+    background-color: var(--danger) ;
+    color: var(--light) ;
+    transition: ease-in all 0.4s ;
+}
+
+
+/* NAVBAR */
+.logo {
+    width: 170px;
+    height: auto;
+}
+
+.socials a {
+    color: #343a40;
+}
+.socials a:hover {
+    text-decoration: none;
+}
+.socials a:hover:nth-child(2) {
+    color: var(--pink);
+}
+.socials a:hover:nth-child(3) {
+    color: var(--info);
+}
+.socials a:hover:nth-child(5) {
+    color: var(--danger);
+}
+
+
+.scrolling-active {
+    background-color: transparent ;
+}
+
+.navbar .dropdown-item {
+    color: var(--danger);
+    font-size: 12px;
+}
+
+.nav-item .nav-link {
+    font-size: 13px;
+}
+.nav-item .nav-link:hover {
+    color: var(--danger) !important;
+}
+
+.myLink {
+    color: var(--dark) ;
+}
+
+.myLink:hover {
+    color: var(--danger) ;
+}
+
+.activeLink {
+    color: var(--danger) ;
+    border-bottom: 3px solid var(--danger);
+}
+
+#action-nav-btn {
+    border: 2px solid var(--light-brown);
+    border-radius: 50px;
+    color: var(--dark);
+}
+#action-nav-btn:hover {
+    color: var(--light) !important;
+    background-color: var(--light-brown);
+    border: 2px solid var(--light-brown);
+    transition: ease-in all 0.4s;
+}
+
+/* CAROUSSEL */
+.carousel-indicators .active {
+    background-color: var(--light-brown);
+}
+
+.carousel-indicators li {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none !important;
+}
+
+.relative {
+    position: absolute;
+    top: 56%;
+    transform: translateY(-44%);
+    padding: 0;
+    bottom: auto;
+}
+
+/* ABOUT SECTION */
+.about-section {
+    padding: 30px 0px ;
+}
+
+.about-section .row {
+    margin: 100px 0px;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(255, 197, 147);
+}
+.footer-copyright {
+    background-color: var(--light-brown);
+}
+
+
+.footer-socials {
+    margin: 25px 0px;
+}
+.footer-socials a {
+    text-decoration: none;
+}
+.footer-socials a:nth-child(1), .footer-socials a:nth-child(4) {
+    color: var(--primary);
+}
+.footer-socials a:nth-child(2) {
+    color: var(--pink);
+}
+.footer-socials a:nth-child(3) {
+    color: var(--info);
+}
+.footer-socials a:nth-child(5) {
+    color: var(--danger);
+}
+
+@media screen and (max-width: 678px) {
+    .about-section .row {
+        margin: 50px 0px;
+    }
+}
+
+@media screen and (min-width: 679px) and (max-width: 1024px) {
+    .carousel-caption h1 {
+        font-size: 20px ;
+    }
+
+    .carousel-caption span {
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .carousel-caption span span {
+        font-size: 50px;
+        color: var(--danger);
+        font-family: Lobster;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .carousel-caption span {
+        text-transform: uppercase;
+    }
+    .carousel-caption span span {
+        font-size: 70px;
+        color: var(--danger);
+        font-family: Lobster;
+    }
+}
+
